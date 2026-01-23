@@ -87,6 +87,7 @@ public class UsuarioConverter {
                 .cep(requestEnderecoDTO.getCep() != null ? requestEnderecoDTO.getCep() : endereco.getCep())
                 .numero(requestEnderecoDTO.getNumero() != null ? requestEnderecoDTO.getNumero() : endereco.getNumero())
                 .complemento(requestEnderecoDTO.getComplemento() != null ? requestEnderecoDTO.getComplemento() : endereco.getComplemento())
+                .user_id(endereco.getUser_id())
                 .build();
     }
 
@@ -95,6 +96,7 @@ public class UsuarioConverter {
                 .id(telefone.getId())
                 .ddd(requestTelefoneDTO.getDdd() != null ? requestTelefoneDTO.getDdd() : telefone.getDdd())
                 .numero(requestTelefoneDTO.getNumero() != null ? requestTelefoneDTO.getNumero() : telefone.getNumero())
+                .user_id(telefone.getUser_id())
                 .build();
     }
 
