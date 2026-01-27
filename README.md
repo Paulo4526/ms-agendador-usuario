@@ -122,7 +122,7 @@
 
 <h3>🚀 Criando a imagem com compose e subindo a aplicação com Docker Compose</h3>
 
-<pre><code>docker compose build api .</code></pre>
+<pre><code>docker compose build ms-usuario</code></pre>
 <pre><code>docker compose up -d</code></pre>
 
 <p>
